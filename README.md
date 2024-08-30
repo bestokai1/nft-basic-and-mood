@@ -1,19 +1,27 @@
-## Foundry
+## Smart Contract Lottery
+**This is a demo of a NFT smart contract with the implementation of Openzeppelin's ERC721**
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Foundry consists of:
+## About The Project
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+This smart contract lottery allows users to mint NFTs which are attached to tokenIDs that map to specified URIs. These URIs are basically metadata containers should these NFTs land on NFT platforms, such as OpenSea, and potential buyers may be able to read the metadata off of it.
 
-## Documentation
 
-https://book.getfoundry.sh/
+## Actors
 
-## Usage
+Actors:
+
+* User: Will be able to mint NFTs.
+
+
+## Quick Start
+```solidity
+ git clone https://github.com/bestokai1/nft-basic-and-mood
+ code nft-basic-and-mood
+ forge build
+```
+
+
 
 ### Build
 
@@ -21,11 +29,13 @@ https://book.getfoundry.sh/
 $ forge build
 ```
 
+
 ### Test
 
 ```shell
 $ forge test
 ```
+
 
 ### Format
 
@@ -33,29 +43,6 @@ $ forge test
 $ forge fmt
 ```
 
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
 
 ### Help
 
