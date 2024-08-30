@@ -4,7 +4,7 @@
 
 ## About The Project
 
-This smart contract lottery allows users to mint NFTs which are attached to tokenIDs that map to specified URIs. These URIs are basically metadata containers should these NFTs land on NFT platforms, such as OpenSea, and potential buyers may be able to read the metadata off of it.
+This smart contract allows users to mint NFTs which are attached to tokenIDs that map to specified URIs. These URIs are basically metadata containers should these NFTs land on NFT platforms, such as OpenSea, and potential buyers may be able to read the metadata off of it.
 
 
 ## Actors
